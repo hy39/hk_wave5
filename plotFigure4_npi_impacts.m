@@ -4,8 +4,8 @@
 % Written by Hsiang-Yu Yuan (sean.yuan@cityu.edu.hk)
 function [] = plotFigure4_npi_impacts()
 
-load('mcmc/fullmod_mcmc_output');
-ps = PosteriorSamples; %posterior distributions
+load('mcmc/fullmod_mcmc_output');%replace the file if you generate new MCMC output
+ps = PosteriorSamples;%posterior distributions
 sys_par = sys_par;%McMC system parameters 
 pars = Par_stat.par;%model parameters
 

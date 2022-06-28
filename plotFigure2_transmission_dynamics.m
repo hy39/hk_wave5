@@ -7,7 +7,7 @@ function [] = plotFigure2_transmission_dynamics()
 %figure('Renderer', 'painters', 'Position', [20 500 1080 400]); %for Mac 
 figure('Renderer', 'painters', 'Position', [20 500 1200 450]); %for Windows
 
-load('mcmc/fullmod_mcmc_output');
+load('mcmc/fullmod_mcmc_output');%replace the file if you generate new MCMC output
 ps = PosteriorSamples; %posterior distributions
 sys_par = sys_par;%McMC system parameters 
 pars = Par_stat.par;%model parameters

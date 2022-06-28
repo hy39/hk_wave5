@@ -9,8 +9,7 @@ figure('Renderer', 'painters', 'Position', [20 500 1200 450]); %for Windows
 
 subplot(1,2,1);
 hold on;
-load('mcmc/fullmod_mcmc_output.mat');
-
+load('mcmc/fullmod_mcmc_output.mat'); %replace the file if you generate new MCMC output
 ps = PosteriorSamples;
 pars = Par_stat.par;
 
